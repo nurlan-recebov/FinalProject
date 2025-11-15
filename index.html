@@ -5,7 +5,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
-
+<link href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css
+" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,29 +16,41 @@
     <link rel="stylesheet" href="./assets/styles/index.css" />
 </head>
 <body">
-    <!-- HEADER  -->
-    <div class="header-wrapper">
-        <header class="header">
-            <div class="container-header">
-                <div class="header-div1">
-                    <h1>Brainwave.io</h1>
-                </div>
-                <div class="header-div2">
-                    <ul class="navbar">
-                        <li class="navlink"><a href="index.html">Home</a></li>
-                        <li class="navlink"><a href="about us.html">About</a></li>
-                        <li class="navlink"><a href="support.html">Support</a></li>
-                    </ul>
-                </div>
-                <div class="header-div3">
-                    <ul class="navbar">
-                        <li class="navlink"><a href="login.html">Login</a></li>
-                        <li class="navlink"><a href="sign up.html">Sign up</a></li>
-                </div>
-            </div>
-        </header>
-    </div>
+     <!-- HEADER  -->
+    <header class="header">
+      <div class="container-header">
+        <div class="header-logo">
+          <h1>Brainwave.io</h1>
+        </div>
+        <div class="navbar">
+          <ul class="navlist">
+            <li class="navlink"><a href="index.html">Home</a></li>
+            <li class="navlink"><a href="about.html">About</a></li>
+            <li class="navlink"><a href="support.html">Support</a></li>
+          </ul>
+        </div>
+        <div class="button-div">
+          <ul class="button-list">
+            <li><a href="login.html">Login</a></li>
+            <li><a href="signup.html">Sign up</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <!-- SECTION1  -->
+   
     <main>
+        <section class="home">
+<div class="home-header">
+    <h1>
+    Find a dream <br>job that <br>changes life.
+</h1>
+<p>
+    With lots of unique blocks, you can easily <br>build a page without coding. Build your next <br> job website.
+</p>
+
+</div>
+        </section>
         <section class="hero-section mt-5 p-4">
             <div class="hero-content text-center">
                 <h2>Big companies are here</h2>
@@ -45,7 +58,7 @@
                     consultancy website within few minutes. You have a business to run. Stop <br> worring about
                     cross-browser bugs, designing new pages.</p>
             </div>
-            <div class="hero-logos ">
+            <div class="hero-logos d-flex flex-column align-items-center mt-4 flex-wrap">
                 <div class="hero-logo d-flex d-flex flex-wrap justify-content-center gap-4 mb-4">
                     <img src="./assets/img/Logo 1.svg" alt="Logo 1" />
                     <img src="./assets/img/Logo 2.svg" alt="Logo 2" />
@@ -161,23 +174,23 @@
                             <p>Google Inc.</p>
 
                         </div>
-                        <div class="features-location d-flex  mt-3 gap-2">
-                            <div class="features-icon"><img src="/assets/img/leaf-80.png" class="img-fluid" alt="">
+                        <div class="features-brand d-flex  mt-3 gap-2">
+                            <div class="features-logo"><img src="/assets/img/Logo (11).png" class="img-fluid" alt="">
                             </div>
-                            <h6 class="fs-5">Greener</h6>
+                            <h6 class="fs-5">Dorfus</h6>
                         </div>
                     </div>
                     <div class="features-card d-flex  p-4">
                         <div>
-                            <span style="color: #473BF0;">Fulltime</span>
+                            <span style="color: #473BF0;">Remote</span>
                             <h4>Product designer</h4>
                             <p>Google Inc.</p>
 
                         </div>
-                        <div class="features-location d-flex  mt-3 gap-2">
-                            <div class="features-icon"><img src="/assets/img/leaf-80.png" class="img-fluid" alt="">
+                        <div class="features-brand d-flex  mt-3 gap-2">
+                            <div class="features-logo"><img src="/assets/img/Logo (10).png" class="img-fluid" alt="">
                             </div>
-                            <h6 class="fs-5">Greener</h6>
+                            <h6 class="fs-5">Coworks</h6>
                         </div>
                     </div>
                     <div class="features-card  d-flex  p-4">
@@ -187,21 +200,21 @@
                             <p>Google Inc.</p>
                         </div>
 
-                        <div class=" d-flex  mt-3 gap-2 ">
-                            <div class="features-icon"><img src="/assets/img/leaf-80.png" class="img-fluid" alt="">
+                        <div class="features-brand d-flex  mt-3 gap-2 ">
+                            <div class="features-logo"><img src="/assets/img/Logo (9).png" class="img-fluid" alt="">
                             </div>
-                            <h6 class="fs-5">Greener</h6>
+                            <h6 class="fs-5">Askimat</h6>
                         </div>
                     </div>
                     <div class="features-card d-flex  p-4">
                         <div>
-                            <span class="text-danger">Fulltime</span>
+                            <span class="text-danger">Part time</span>
                             <h4>Full stack Developer</h4>
                             <p>Google Inc.</p>
                         </div>
 
-                        <div class=" d-flex  mt-3 gap-2   ">
-                            <div class="features-icon"><img src="/assets/img/leaf-80.png" class="img-fluid" alt="">
+                        <div class="features-brand d-flex  mt-3 gap-2   ">
+                            <div class="features-icon "><img src="/assets/img/leaf-80.png" class="img-fluid" alt="">
                             </div>
                             <h6 class="fs-5">Greener</h6>
                         </div>
@@ -211,8 +224,112 @@
             </div>
 
         </section>
+        <section class="News-section">
+<div class="d-flex justify-content-center text-center flex-column align-items-center mt-5">
+    <h3>News that Helps</h3>
+    <p>With lots of unique blocks, you can easily build a page <br> without coding. Build your next landing page.</p>
+</div>
+<div class="news-cards">
+    <div class="news-card">
+        <img src="./assets/img/IMG (1).jpg" alt="News 1" class="img-fluid" />
+          <p>Career</p>
+      
+        <h5 class="mt-3">How to make your resume stand out</h5>
+      
+    </div>
+    <div class="news-card">
+        <img src="./assets/img/Bitmap (1).jpg" alt="News 2" class="img-fluid" />
+       <p>Lifestyle</p>
+      
+        <h5 class="mt-3">How to make your resume stand out</h5>
+      
+     
+    </div>
+    <div class="news-card">
+        <img src="./assets/img/Img.jpg" alt="News 3" class="img-fluid" />
+       <p>Career</p>
+      
+        <h5 class="mt-3">How to make your resume stand out</h5>
+      
+     
+    </div>
+</div>
+        </section>
+        <section class="subscribe-section">
+<div class="container">
+    <div class="subscribe-content text-center p-4">
+        <div class="subscribe-icon">
+            <img src="./assets/img/email-83.png" class="img-fluid" alt="Subscribe Icon" />
+        </div>
+        <h3>Get our latest updates</h3>
+        <p>With lots of unique blocks, you can easily build a page <br> without coding. Build your next landing page.</p>
+        <div class="subscribe-form d-flex justify-content-center mt-4 ">
+            <input type="email" placeholder="Enter your email" class="form-control me-2 p-2 py-3" />
+            <button class="btn btn-primary px-5">Subscribe</button>
+        </div>
+        <p>We’ll never share your details with third parties.<br> View our Privacy Policy for more info.</p>
+    </div>
+</div>
+        </section>
     </main>
-
+    <!-- FOOTER  -->
+<!-- FOOTER  -->
+ <footer class="footer">
+ <div class="container-footer">
+    <!-- SOL HISSE  -->
+      <div class="footer-left">
+          <h3>Brainwave.io</h3>
+          <p> With lots of unique blocks, you can easily</br>
+              build a page without coding. Build your</br>
+              next landing page.</p>
+      <div class="footer-sosial">
+  <a href="https://twitter.com" target="_blank"><i class="bi bi-twitter"></i></a>
+  <a href="https://facebook.com" target="_blank"><i class="bi bi-facebook"></i></a>
+  <a href="https://instagram.com" target="_blank"><i class="bi bi-instagram"></i></a>
+  <a href="https://linkedin.com" target="_blank"><i class="bi bi-linkedin"></i></a>
+</div>
+      </div>
+      <!-- SAG HISSE  -->
+       <div class="footer-links">
+            <div class="footer-div">
+            <h4 class="footer-h4">Company</h4>
+            <ul class="footer-ul">
+             <li><a href="#">About us</a></li>
+             <li><a href="#">Contact us</a></li>
+             <li><a href="#">Careers</a></li>
+             <li><a href="#">Press</a></li>
+            </ul>
+            </div>
+        <div class="footer-div">
+            <h4 class="footer-h4">Product</h4>
+            <ul class="footer-ul">
+              <li><a href="#">Features</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">News</a></li>
+              <li><a href="#">Help desk</a></li>
+              <li><a href="#">Support</a></li>
+            </ul>
+            </div>
+                  <div class="footer-div">
+                  <h4 class="footer-h4">Services</h4>
+                   <ul class="footer-ul">
+                     <li><a href="#">Digital Marketing</a></li>
+                     <li><a href="#">Content Writing</a></li>
+                     <li><a href="#">SEO for Business</a></li>
+                     <li><a href="#">UI Design</a></li>
+                     </ul>
+                  </div>
+                  <div class="footer-div">
+                       <h4 class="footer-h4">Legal</h4>
+                       <ul class="footer-ul">
+                       <li><a href="#">Privacy Policy</a></li>
+                       <li><a href="#">Terms & Conditions</a></li>
+                       <li><a href="#">Return Policy</a></li>
+                       </ul>
+           </div>
+           </div>
+           </div>
+</footer>
     <script src=""></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     </body>
