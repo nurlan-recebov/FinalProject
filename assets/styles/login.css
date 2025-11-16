@@ -12,6 +12,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 30px 24px;
 }
 .container-header {
   margin: 0 auto;
@@ -25,6 +26,11 @@
   color: #161c2d;
   line-height: 100%;
   letter-spacing: -0.13px;
+}
+.header ul li a :hover {
+  color: #FB6D45;
+  transition: 0.3s;
+    cursor: pointer;
 }
 /* SECTION1  */
 .SECTION1 {
